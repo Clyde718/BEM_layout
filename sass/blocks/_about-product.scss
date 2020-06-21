@@ -1,0 +1,38 @@
+.about-product {
+  padding: 50px 0px;
+  background-color: #ffffff;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    padding: 0px 100px 0px 0px;
+  }
+
+  &__title {
+    margin: 0px 0px 35px 0px;
+  }
+
+  &__text {
+  }
+
+  &__paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin: 0px 0px 20px 0px;
+    &:last-child {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+
+  &__image {
+    flex: 0 0 430px;
+  }
+}
+.container {
+}
+.title {
+}
