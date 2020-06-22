@@ -9,10 +9,13 @@
   &__row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0px -16px;
   }
 
   &__column {
     flex: 0 1 50%;
+    margin: 0px 0px 25px 0px;
+    padding: 0px 16px;
   }
 
   &__item {
@@ -42,10 +45,27 @@
   }
 
   &__text {
+    padding: 15px;
+    background-color: #ebebeb;
+    border-radius: 3px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: 27px;
+      left: -6px;
+      background-color: #ebebeb;
+      transform: rotate(45deg);
+    }
+  }
+  &__paragraph {
     font-size: 14px;
     line-height: 18px;
     color: #333333;
     font-style: italic;
+    margin: 0px 0px 15px 0px;
   }
 
   &__painting {

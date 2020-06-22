@@ -40,11 +40,9 @@
     color: #333333;
   }
   &__img {
-    flex: 0 0 32px;
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
+    svg {
+      width: 32px;
+      height: 32px;
     }
   }
 }
